@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	<title>Хвосты и лапки</title>
+	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,400i,700&amp;subset=cyrillic-ext" rel="stylesheet">
+
+</head>
+
+<body>
+
+	<header class="header">
+		<div class="container text-center">
+			<img src="img/logo/logo.svg" width="100" alt="Хвосты и лапки">
+			<h1 class="shop-name upper">Хвосты и Лапки</h1>
+			<h1>Онлайн-магазин для любимых питомцев</h1>
+		</div>
+		<nav class="navigation">
+            <ul class="menu upper">
+                <li class="menu-item"><a href="#cats-container" class="page-scroll">Котики</a></li>
+                <li class="menu-item"><a href="#dogs-container" class="page-scroll">Собачки</a></li>
+                <li class="menu-item"><a href="#hamsters-container" class="page-scroll">Хомячки</a></li>
+                <li class="menu-item"><a href="#fishes-container" class="page-scroll">Рыбки</a></li>
+            </ul>
+			<button class="cart-button upper">Корзина</button>
+        </nav>
+	</header>
+
+	
+	<!-- Корзина -->
+
+	<div class="cart">
+		<div class="cart-body">
+			<h5>Ваш заказ</h5>
+			<hr>
+			<div data-cart-empty class="alert alert-secondary" role="alert">
+				Корзина грустит, в ней пусто
+			</div>
+
+			<div class="cart-wrapper">
+
+			</div>
+
+
+			<!-- Стоимость заказа -->
+			<div class="cart-total">
+				<p data-cart-delivery class="none">
+					<span class="h5">Доставка:</span>
+					<span class="delivery-cost">199 ₽</span><br>
+					<span class="small">Бесплатно при заказе от 600 ₽</span>
+				</p>
+				<p >
+					<span class="h5">Итого:</span>
+					<span class="total-price">0</span>
+					<span class="rouble">₽</span>
+				</p>
+			</div>
+			<!-- // Стоимость заказа -->
+
+			<!-- Оформить заказ -->
+			<div id="order-form" class="order-body none">
+				<hr>
+				<h5 class="card-title">Оформить заказ</h4>
+				<form>
+					<div class="form-group">
+						<input type="text" class="form-control" placeholder="Ваш номер телефона">
+					</div>
+					<button type="submit" class="btn btn-primary">Заказать</button>
+				</form>
+			</div>
+			<!-- // Оформить заказ -->
+
+
+		</div>
+	</div>		
+
+	<h2 class="text-center" id="cats">Котики</h2>
+
+	<div class="products" id="cats-products">
+
+	</div>
+
+
+
+	<h2 class="text-center" id="dogs-container">Собачки</h2>
+
+	<div class="products" id="dogs-products">
+			
+	</div>
+
+
+
+	<h2 class="text-center" id="hamsters-container">Хомячки</h2>
+
+	<div class="products" id="hamsters-products">
+		
+	</div>
+
+
+
+	<h2 class="text-center" id="fishes-container">Рыбки</h2>
+
+	<div class="products" id="fishes-products">
+		
+	</div>
+
+
+	<!-- Подключаем скрипты -->
+
+	<script src = './js/catsProducts.json'></script>
+	<script src = './js/dogsProducts.json'></script>
+	<script src = './js/hamstersProducts.json'></script>
+	<script src = './js/fishesProducts.json'></script>
+
+	<script src = './js/catsRender.js'></script>
+	<script src = './js/dogsRender.js'></script>
+	<script src = './js/hamstersRender.js'></script>
+	<script src = './js/fishesRender.js'></script>
+
+	<script src = './js/calcCartPrice.js'></script>
+	<script src = './js/toggleCartStatus.js'></script>
+	<script src = './js/counter.js'></script>
+	<script src = './js/cart-total.js'></script>
+
+</body>
+
+</html>

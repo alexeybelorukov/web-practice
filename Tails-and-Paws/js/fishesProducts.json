@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "title": "Корм Cichlid Red XL",
+        "itemsInBox": 1,
+        "weight": 1300,
+        "price": 1000,
+        "imgSrc": "fish-food-cichlid-red-xl.png"
+    },
+    {
+        "id": 2,
+        "title": "Кормушка для рыб",
+        "itemsInBox": 1,
+        "weight": 200,
+        "price": 250,
+        "imgSrc": "fish-feeder.png"
+    },
+    {
+        "id": 3,
+        "title": "Аквариум кубик",
+        "itemsInBox": 1,
+        "weight": 800,
+        "price": 950,
+        "imgSrc": "fish-aquarium-cube.png"
+    },
+    {
+        "id": 4,
+        "title": "Аквариум шарик",
+        "itemsInBox": 1,
+        "weight": 700,
+        "price": 900,
+        "imgSrc": "fish-aquarium-ball.png"
+    },
+    {
+        "id": 5,
+        "title": "Большой аквариум",
+        "itemsInBox": 1,
+        "weight": 2000,
+        "price": 2500,
+        "imgSrc": "fish-multi-tiered-aquarium.png"
+    },
+    {
+        "id": 6,
+        "title": "Голубой коралл",
+        "itemsInBox": 1,
+        "weight": 350,
+        "price": 500,
+        "imgSrc": "fish-blue-coral.png"
+    },
+    {
+        "id": 7,
+        "title": "Цветные кораллы",
+        "itemsInBox": 1,
+        "weight": 400,
+        "price": 550,
+        "imgSrc": "fish-multi-colored-corals.png"
+    },
+    {
+        "id": 8,
+        "title": "Замок для рыбок",
+        "itemsInBox": 1,
+        "weight": 500,
+        "price": 700,
+        "imgSrc": "fish-castle.png"
+    }
+]
