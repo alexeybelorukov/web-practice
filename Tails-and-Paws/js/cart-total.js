@@ -4,6 +4,7 @@ const cartButton = document.querySelector('.cart-button');
 cartButton.addEventListener('click', function() {
     const cartWindow = document.querySelector('.cart');
     cartWindow.classList.toggle('hidden-cart');
+    calcCartPrice();
 })
 
 window.addEventListener('click', function(event) {
