@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "title": "Корм Genesis",
+        "itemsInBox": 1,
+        "weight": 9000,
+        "price": 12900,
+        "imgSrc": "dog-food-genesis.png"
+    },
+    {
+        "id": 2,
+        "title": "Корм Bingo",
+        "itemsInBox": 1,
+        "weight": 3800,
+        "price": 4700,
+        "imgSrc": "dog-food-bingo.png"
+    },
+    {
+        "id": 3,
+        "title": "Дорожная поилка",
+        "itemsInBox": 1,
+        "weight": 180,
+        "price": 220,
+        "imgSrc": "dog-drinking-bowl.png"
+    },
+    {
+        "id": 4,
+        "title": "Лежанка серая",
+        "itemsInBox": 1,
+        "weight": 7500,
+        "price": 5000,
+        "imgSrc": "dog-bed-gray.png"
+    },
+    {
+        "id": 5,
+        "title": "Лежанка напольная",
+        "itemsInBox": 1,
+        "weight": 2500,
+        "price": 2000,
+        "imgSrc": "dog-bed-on-floor.png"
+    },
+    {
+        "id": 6,
+        "title": "Лежанка корзина",
+        "itemsInBox": 1,
+        "weight": 3000,
+        "price": 4000,
+        "imgSrc": "dog-bed-basket.png"
+    },
+    {
+        "id": 7,
+        "title": "Шлейка для собак",
+        "itemsInBox": 1,
+        "weight": 150,
+        "price": 500,
+        "imgSrc": "dog-harness.png"
+    },
+    {
+        "id": 8,
+        "title": "Поводок",
+        "itemsInBox": 1,
+        "weight": 250,
+        "price": 350,
+        "imgSrc": "dog-leash.png"
+    }
+]
