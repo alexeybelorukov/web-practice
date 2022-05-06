@@ -21,7 +21,7 @@ class Convertor:
             raise APIException(f"Валюта {sym} не найдена!")
 
         if base_key == sym_key:
-            raise APIException(f'Невозможно перевести одинаковые валюты {base}!')
+            raise APIException(f'Нельзя перевести одинаковые валюты {base}!')
 
         try:
             amount = float(amount)
